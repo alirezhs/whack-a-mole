@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Whack A Mole</title>
   <script type="module" crossorigin src="/assets/index-D5lqYqOB.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-CGKbKfve.css">
+=======
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self';">
+    <title>Whack A Mole</title>
+  <script type="module" crossorigin src="/assets/index-C4-HmvGT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Cea3shlc.css">
+>>>>>>> c258ea5 (Fix import/export issue and move app.js to src/)
 </head>
 <body>
     <div class="header">
@@ -17,11 +24,20 @@
         <div class="label">🏆 High Score 🏆</div>
         <span id="high-score">0</span>
     </div>
+<<<<<<< HEAD
    <div class="difficulty-selector">
     <label><b>Select Difficulty:</b></label>
     <button class="difficulty-btn active" data-level="easy">Easy</button>
     <button class="difficulty-btn" data-level="medium">Medium</button>
     <button class="difficulty-btn" data-level="hard">Hard</button>
+=======
+    <div class="difficulty-selector">
+        <label><b>Select Difficulty:</b></label>
+        <button class="difficulty-btn" data-level="easy">Easy</button>
+        <button class="difficulty-btn" data-level="medium">Medium</button>
+        <button class="difficulty-btn" data-level="hard">Hard</button>
+        <span id="current-difficulty" style="display: none;"></span>
+>>>>>>> c258ea5 (Fix import/export issue and move app.js to src/)
     </div>  
     <div class="stats">
         <div class="stat-item">
@@ -30,15 +46,22 @@
         </div>
         <div class="stat-item">
             <b>Time</b>
+<<<<<<< HEAD
             <span id="time-left">30</span>      
         </div>
    </div>
+=======
+            <span id="time-left"></span>
+        </div>
+    </div>
+>>>>>>> c258ea5 (Fix import/export issue and move app.js to src/)
     <div class="controls">
         <button id="start-button">Start Game</button>
         <button id="pause-button" disabled>Pause</button>
         <button id="restart-button" disabled>Restart</button>
         <button id="reset-highscore-button">Reset High Score</button>
     </div>
+<<<<<<< HEAD
    <h2 id="final-score"></h2>
    <div id="high-score-message" class="high-score-message"></div>
 
@@ -60,3 +83,20 @@
     
 </body>
 </html>
+=======
+    <h2 id="final-score"></h2>
+    <div id="high-score-message" class="high-score-message"></div>
+    <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+</body>
+</html>
+>>>>>>> c258ea5 (Fix import/export issue and move app.js to src/)
